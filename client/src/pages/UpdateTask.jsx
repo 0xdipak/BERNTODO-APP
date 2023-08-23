@@ -20,7 +20,7 @@ const UpdateTask = ({state}) => {
     const taskID = document.querySelector("#taskID").value;
 
     try {
-      const res = await fetch("http://localhost:3000/api/ethereum/update-task", {
+      const res = await fetch("https://berntodo-app.vercel.app/api/ethereum/update-task", {
         method: "POST",
         headers: {
           "content-type":"application/json"
