@@ -11,7 +11,7 @@ const ViewTask = () => {
       event.preventDefault();
       const taskID = document.querySelector("#taskID").value;
       const res = await fetch(
-        `http://localhost:3000/api/ethereum/view-task/${taskID}`,
+        `https://berntodo-app.vercel.app/api/ethereum/view-task/${taskID}`,
         {
           method: "GET",
           headers: {
