@@ -21,7 +21,7 @@ const CreateTask = ({ state }) => {
 
     try {
       const res = await fetch(
-        "http://localhost:3000/api/ethereum/create-task",
+        "https://berntodo-app.vercel.app/api/ethereum/create-task",
         {
           method: "POST",
           headers: {
