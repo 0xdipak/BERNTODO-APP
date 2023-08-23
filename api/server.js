@@ -8,7 +8,7 @@ const app = express()
 
 app.use(cors(
   {
-    origin: ["https://berntodo-app.vercel.app/"],
+    origin: ["https://berntodo-app-frontend.vercel.app/"],
     methods: ["POST","GET"],
     credentials: true
   }
