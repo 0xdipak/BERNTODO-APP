@@ -10,7 +10,7 @@ const DeleteTask = ({ state }) => {
 
     try {
       const res = await fetch(
-        `http://localhost:3000/api/ethereum/delete-task/${taskId}`,
+        `https://berntodo-app.vercel.app/api/ethereum/delete-task/${taskId}`,
         {
           method: "DELETE",
           headers: {
