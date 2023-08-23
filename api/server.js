@@ -17,9 +17,9 @@ app.use(express.json());
 app.use("/api/ethereum", tasks);
 
 
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`server running at port ${PORT}`);
+
+app.listen(3001, () => {
+  console.log(`server is running`);
 });
 
 
