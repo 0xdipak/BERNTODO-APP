@@ -6,7 +6,13 @@ const cors = require("cors");
 const tasks = require('./routes/routes')
 const app = express()
 
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://berntodo-app.vercel.app/"],
+    methods: ["POST","GET"],
+    credentials: true
+  }
+));
 app.use(express.json());
 app.use("/api/ethereum", tasks);
 
