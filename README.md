@@ -1,4 +1,4 @@
-# BERN Project
+# BERNTODO-APP Project
 
 ## Overview
 
@@ -15,7 +15,7 @@ BERN Project is a decentralized application (dApp) that utilizes the Ethereum bl
 
 ## Introduction
 
-Welcome to the BERN Project repository! This project aims to showcase the potential of decentralized applications by combining the power of Ethereum, React.js, and Node.js. The application allows users to create, view, update and delete tasks.
+Welcome to the BERNTODO-APP Project repository! This project aims to showcase the potential of decentralized applications by combining the power of Ethereum, React.js, and Node.js. The application allows users to create, view, update and delete tasks.
 
 ## Installation
 
@@ -30,7 +30,7 @@ Follow the steps below to set up the BERN Project on your local machine:
 
 ## Usage
 
-To run the BERN Project, follow these instructions:
+To run the BERNTODO-APP Project, follow these instructions:
 
 1. Start the server: `npm start`
 2. In a separate terminal, start the client: `npm run dev`
