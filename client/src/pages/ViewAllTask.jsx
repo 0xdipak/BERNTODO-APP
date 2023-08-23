@@ -8,7 +8,7 @@ const ViewAllTask = () => {
     const allTasks = async () => {
       try {
         const res = await fetch(
-          "http://localhost:3000/api/ethereum/view-all-task",
+          "https://berntodo-app.vercel.app/api/ethereum/view-all-task",
           {
             method: "GET",
             headers: {
